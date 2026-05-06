@@ -1,4 +1,4 @@
-# CDPRs_and_serialrobot_system
+# CDHR-Simulation-Matlab
 
 基于 **MATLAB / Simulink** 开发的 **缆索驱动并联机器人（Cable-Driven Parallel Robot, CDPR）与串联机械臂联合仿真平台**。项目围绕“绳索悬挂机械臂系统”的建模、规划与控制展开，集成了静力学建模、运动学建模、动力学建模、索力分布、力可行空间、最大负载分析、T 型轨迹规划、PID / 模糊 PID 控制与 Simulink 仿真验证等模块。
 
@@ -8,7 +8,7 @@
 
 ## 项目简介
 
-绳索悬挂机械臂系统由 **缆索驱动并联机器人（CDPR）** 和 **串联机械臂** 组成。CDPR 通过多根绳索驱动动平台运动，具有工作空间大、负载能力强、结构轻量化等特点；串联机械臂安装在动平台上，用于完成更复杂、更灵活的末端操作任务。
+绳索悬挂机械臂系统(Cable-Driven Hybrid Robot,CDHR)由 **缆索驱动并联机器人（CDPR）** 和 **串联机械臂** 组成。CDPR 通过多根绳索驱动动平台运动，具有工作空间大、负载能力强、结构轻量化等特点；串联机械臂安装在动平台上，用于完成更复杂、更灵活的末端操作任务。
 
 本项目主要实现以下功能：
 
@@ -531,8 +531,8 @@ T 型轨迹规划用于在起点和终点之间生成平滑轨迹。算法根据
 ### 1. 克隆仓库
 
 ```bash
-git clone git@github.com:WU-ss/CDPRs_and_serialrobot_system.git
-cd CDPRs_and_serialrobot_system
+git clone git@github.com:WU-ss/CDHR-Simulation-Matlab.git
+cd CDHR-Simulation-Matlab
 ```
 
 ### 2. 使用 MATLAB 打开工程目录
@@ -696,6 +696,6 @@ openfig('图1.fig')
 ## 联系方式
 
 - GitHub：<https://github.com/WU-ss>
-- 仓库地址：<https://github.com/WU-ss/CDPRs_and_serialrobot_system>
+- 仓库地址：<https://github.com/WU-ss/CDHR-Simulation-Matlab>
 
 如遇到运行错误、模型兼容问题或有改进建议，欢迎提交 Issue。
